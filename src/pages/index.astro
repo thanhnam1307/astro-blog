@@ -1,4 +1,13 @@
 ---
+const num = 1;
+const str = 'Nam';
+const bool = true;
+const arr = [1, 2, 3];
+const obj = {
+	name :str,
+	age: num,
+	arr:["a","b","c"],
+}
 
 ---
 
@@ -11,6 +20,6 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<h1>{obj.name}</h1>	
 	</body>
 </html>
